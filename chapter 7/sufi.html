@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      .container {
+        /* border: 1px solid red; */
+        margin: auto;
+      }
+      .Nav {
+        /* border: 1px solid; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: rgb(0, 119, 255);
+      }
+      .Nav > div {
+        /* border: 1px solid; */
+        display: flex;
+        height: 50px;
+        gap: 20px;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .Nav > div img {
+        filter: invert();
+      }
+      .Nav > div p {
+        color: white;
+        padding: 5px 10px;
+      }
+
+      .Nav > div p:hover {
+        color: rgb(0, 119, 255);
+        background: white;
+        border-radius: 10px;
+        transform: scale(1.2);
+      }
+
+      .image_container {
+        width: 60%;
+        border: 1px solid;
+        margin: auto;
+      }
+
+      .image_container > img {
+        width: 100%;
+      }
+
+      .cards_container {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+      }
+
+      .cards_container > div {
+        border: 1px solid rgb(187, 179, 179);
+        text-align: center;
+        border-radius: 5px;
+        background: #eeee;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: large;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="Nav">
+        <div>
+          <img
+            width="100px"
+            src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <p>Home</p>
+          <p>Home</p>
+          <p>Home</p>
+        </div>
+      </header>
+
+      <div class="image_container">
+        <img
+          src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Audio/JBL-NM/03_ANC.gif"
+          alt=""
+        />
+      </div>
+
+      <div class="cards_container">
+        <div>
+          <img
+            src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSeW_O4ek_NuMdJxzWtNb3S_J15kSLLG_pJNKeW0J4Y51uLGdjBHfG9hY3PBzUieYse7GlIehlXq14vhrW6ODDoClJbT8Wy0MjiPXXy"
+            alt=""
+          />
+          <p>R15</p>
+          <p>Price : 1.4 lakhs</p>
+        </div>
+
+        <div>
+          <img
+            src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSeW_O4ek_NuMdJxzWtNb3S_J15kSLLG_pJNKeW0J4Y51uLGdjBHfG9hY3PBzUieYse7GlIehlXq14vhrW6ODDoClJbT8Wy0MjiPXXy"
+            alt=""
+          />
+          <p>R15</p>
+          <p>Price : 1.4 lakhs</p>
+        </div>
+
+        <div>
+          <img
+            src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSeW_O4ek_NuMdJxzWtNb3S_J15kSLLG_pJNKeW0J4Y51uLGdjBHfG9hY3PBzUieYse7GlIehlXq14vhrW6ODDoClJbT8Wy0MjiPXXy"
+            alt=""
+          />
+          <p>R15</p>
+          <p>Price : 1.4 lakhs</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
