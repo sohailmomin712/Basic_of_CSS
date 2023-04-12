@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment 2</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .container {
+      border: 2px solid red;
+    }
+
+    .cart {
+      border: 2px solid blue;
+      /* height: 50vh; */
+      display: flex;
+      background: #b8b1b1ee;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      gap: 10px;
+    }
+
+    .cart>div {
+      /* border: 2px solid red; */
+      text-align: center;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      background: #f5f1f1ee;
+      border-radius: 10px;
+
+    }
+
+    .cart>div>h1 {
+      color: red;
+    }
+
+    .cart>div:nth-child(2)>h1 {
+      color: green;
+    }
+
+    .cart>div:nth-child(3)>h1 {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <pre>
+            <h1>Choose a plan that's right
+    for your business</h1>
+           <p>
+ We collect reviews from our users so that you can get an honest
+ opinon of what an experience with our website are really 
+                      like!
+           </p>
+        </pre>
+    </div>
+  </div>
+
+
+  <div class="cart">
+    <div>
+      <b>
+        <h2>Starter Plan</h2>
+      </b>
+      <h1>Free</h1>
+      <i>
+        <h5>per month</h5>
+      </i>
+      <p>
+        We collect reviews from our users so that you can get an honest opinon
+        of what an experience with our website are really like!
+      </p>
+      <button>Start Now</button>
+    </div>
+
+    <div>
+      <b>
+        <h2>Starter Plan</h2>
+      </b>
+      <h1>$39.00</h1>
+      <i>
+        <h5>per month</h5>
+      </i>
+      <p>
+        We collect reviews from our users so that you can get an honest opinon
+        of what an experience with our website are really like!
+      </p>
+      <button>Start Now</button>
+    </div>
+
+    <div>
+      <b>
+        <h2>Starter Plan</h2>
+      </b>
+      <h1>$59.00</h1>
+      <i>
+        <h5>per month</h5>
+      </i>
+      <p>
+        We collect reviews from our users so that you can get an honest opinon
+        of what an experience with our website are really like!
+      </p>
+      <button>Start Now</button>
+    </div>
+  </div>
+</body>
+
+</html>
